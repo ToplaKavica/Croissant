@@ -1,6 +1,5 @@
 body {
   background-color: rgb(254, 216, 168);
-  max-width: 500px;
   text-align: center;
 }
 img {
@@ -10,8 +9,9 @@ img {
 }
 p {
   margin: 40px;
+  font-size: 20px;
 }
-a {
+.button {
   text-decoration: none;
   color: beige;
   background-color: rgb(228, 182, 122);
@@ -20,8 +20,8 @@ a {
   border-radius: 10px;
   border: 1px solid rgb(228, 182, 122);
 }
-a:hover {
-  background-color: rgba(228, 182, 122, 0.44);
+.button:hover {
+  background-color: rgba(228, 182, 122, 0.396);
   border: 1px solid rgb(173, 127, 66);
   color: rgb(173, 127, 66);
 }
